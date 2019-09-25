@@ -1,4 +1,5 @@
 body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto 0;
     background-color: rgb(241, 239, 239);
     color: black;
@@ -18,7 +19,7 @@ a{
 }
 .content-wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 960px; 
     margin: 0 auto;
     margin-top: 0;
     clear: both;
@@ -26,7 +27,7 @@ a{
 article {
     float: left;
     width: 100%;
-    max-width: 960px;
+    max-width: 960px; 
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
@@ -38,4 +39,44 @@ article {
     width: 250px;
     margin: 10px 3% 10px 0px;
     overflow: auto;
+}
+
+
+
+
+.footer{
+    clear: both;
+    margin: 83% auto 0 auto;
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(233,236,239)
+}
+
+@media(max-width: 655px){
+.nav{
+    margin-top: 12px;
+    margin-right: 45%;
+}
+}
+@media(max-width:518px){
+    .nav{
+        margin-top: 0;
+        margin-right: 40%;
+    }
+}
+@media(max-width:470px){
+    a{
+        font-size: 12px;
+    }
+    .nav{
+        margin-right: 23%;
+    }
+    .nav-item1, .nav-item2{
+        border-right: 0;
+        margin-right: 2px;
+    }
+    .nav-link{
+        padding: .5rem .5rem;
+    }
+
 }
