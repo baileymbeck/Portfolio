@@ -1,0 +1,18 @@
+body{
+    margin: auto 0;
+    background-color: rgb(241, 239, 239);
+    color: black;
+}
+.nav{
+    float: right;
+    background-color: rgb(233,236,239);
+    margin-top: -55px;
+    border-bottom: 0;
+}
+.nav-item1, .nav-item2{
+    border-right: solid 1px grey;
+}
+a{
+    color: black;
+    font-size: 18px;
+}
