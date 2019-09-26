@@ -15,7 +15,7 @@ body{
 .nav-item1, .nav-item2{
     border-right: solid 1px grey;
 }
-a{
+.nav-link{
     color: black;
     font-size: 18px;
 }
@@ -42,6 +42,11 @@ article{
     width: 250px;
     margin: 10px 3% 10px 0px;
     overflow: auto;
+}
+.portBtn{
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
 }
 /* contact section */
 .form{
