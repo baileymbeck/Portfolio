@@ -4,6 +4,8 @@ body{
     background-color: rgb(241, 239, 239);
     color: black;
 }
+
+/* header */
 .nav{
     float: right;
     background-color: rgb(233,236,239);
@@ -17,6 +19,8 @@ a{
     color: black;
     font-size: 18px;
 }
+
+/* about section */
 .content-wrapper{
     width: 100%;
     max-width: 960px; 
@@ -24,13 +28,12 @@ a{
     margin-top: 0;
     clear: both;
 }
-article {
-    float: left;
+article{
     width: 100%;
     max-width: 960px; 
     padding: 30px;
     margin: 0 0 40px;
-    background: #ffffff;
+    background: rgb(233,236,239);
     border: 1px solid #dddddd;
 }
 #profile-photo {
@@ -40,10 +43,61 @@ article {
     margin: 10px 3% 10px 0px;
     overflow: auto;
 }
+/* contact section */
+.form{
+    width: 100%;
+    max-width: 960px; 
+    padding: 30px;
+    margin: auto;
+    background: rgb(233,236,239);
+    border: 1px solid #dddddd;
+}
+
+/* portfolio page */
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work{
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
 
 
 
-
+/* make footer responsive last */
 .footer{
     clear: both;
     margin: 83% auto 0 auto;
