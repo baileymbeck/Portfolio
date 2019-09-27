@@ -1,7 +1,8 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto 0;
-    background-color: rgb(241, 239, 239);
+    /* background-color: rgb(241, 239, 239); */
+    background: url(../images/background.jpeg);
     color: black;
 }
 
@@ -39,7 +40,8 @@ article{
 #profile-photo {
     position: relative;
     float: left;
-    width: 250px;
+    width: 205px;
+    height: 200px;
     margin: 10px 3% 10px 0px;
     overflow: auto;
 }
@@ -57,6 +59,9 @@ article{
     background: rgb(233,236,239);
     border: 1px solid #dddddd;
 }
+.card-body{
+    background-color: rgb(233,236,239);
+}
 
 /* portfolio page */
 
@@ -64,12 +69,9 @@ article{
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 20px 20px;
+    /* margin-right: 40px; */
     overflow: auto;
-  }
-  
-  .work{
-    margin-right: 40px;
   }
   
   .work img {
@@ -99,7 +101,16 @@ article{
     margin-top: 10px;
     margin-right: 25px;
   }
-
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px 15%;
+    background-color: rgb(233,236,239);
+    border: 1px solid #dddddd;
+    align-items: center;
+  }
 
 
 /* make footer responsive last */
@@ -111,24 +122,35 @@ article{
     background-color: rgb(233,236,239)
 }
 
-@media(max-width: 655px){
-.nav{
-    margin-top: 12px;
-    margin-right: 45%;
-}
-}
-@media(max-width:518px){
-    .nav{
-        margin-top: 0;
-        margin-right: 40%;
+@media(min-width: 941px) and (max-width:1100px){
+    .main-section{
+        margin: 0 0 40px 34px;
     }
 }
-@media(max-width:470px){
+
+@media(min-width: 768px) and (max-width:940px){
+    .main-section{
+        margin: 0 0 40px 0;
+    }
+}
+
+@media(min-width: 471px) and (max-width:767px){
+    .nav{
+        margin-right: 0;
+        padding-left: 15%;
+        padding-right: 10%;
+        font-size: 12px;
+    }
+}
+@media(min-width: 320px) and (max-width:470px){
     a{
         font-size: 12px;
     }
     .nav{
-        margin-right: 23%;
+        margin-right: 0;
+        padding-left: 15%;
+        padding-right: 10%;
+        font-size: 12px;
     }
     .nav-item1, .nav-item2{
         border-right: 0;
@@ -137,5 +159,13 @@ article{
     .nav-link{
         padding: .5rem .5rem;
     }
-
+    .main-section{
+        margin: 0 0 40px;
+    }
+    .work{
+        width: 84%;
+    }
+    .work h3{
+        bottom: 0;
+    }
 }
