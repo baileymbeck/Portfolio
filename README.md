@@ -32,4 +32,4 @@ List of features ready and TODOs for future development
 Project is: in progress as this will be updated as I continue to learn new skills
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Resumes only go so far, my portfolio serves as an example of my work.
